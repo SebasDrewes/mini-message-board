@@ -1,6 +1,7 @@
 extends layout
 
 block content
+ .container
   h1= title
       form(name="new", method="post", action="/new")
         div.input
@@ -9,4 +10,4 @@ block content
             span.label Message
             input(type="text", name="messageText")
         div.actions
-            input(type="submit", value="post")
+            input(type="submit", value="Post!")

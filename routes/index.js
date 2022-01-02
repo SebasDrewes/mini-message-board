@@ -18,7 +18,7 @@ router.get("/", function (req, res, next) {
 });
 /* GET form page. */
 router.get("/new", function (req, res, next) {
-  res.render("form", { title: "Form" });
+  res.render("form", { title: "Add your Message!" });
 });
 /* POST form message. */
 router.post("/new", function (req, res, next) {
